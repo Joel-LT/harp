@@ -8,7 +8,8 @@ preMerge:
     - "./test/*js"
 postMerge:
   pattern: 
-    - "./test/*js"postRun:
+    - "./test/*js"
+postRun:
      command:
         - node --version
 # configFile: mocharc.yml
